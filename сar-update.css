@@ -1,0 +1,38 @@
+.menu_list li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 43px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+  
+.logo,  .menu_list {
+    display: inline-block;
+    margin-right: 43px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.menu_list a{
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+  
+.menu_list a:hover {
+    color: gray;
+}
+
+.logo {
+    vertical-align: middle;
+    size: 25px;
+}
